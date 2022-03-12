@@ -52,7 +52,7 @@ jobs:
       # 리액트 빌드
       - name: React Build
         run: |
-          num install
+          npm install
           npm run build
 
       # Docker 설정
