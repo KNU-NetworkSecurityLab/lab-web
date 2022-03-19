@@ -2,7 +2,7 @@ name: CI Unit Test
 
 on:
   push:
-    branches: [ feature ]
+    branches: [ feature/* ]
 
 jobs:
   unittest:
